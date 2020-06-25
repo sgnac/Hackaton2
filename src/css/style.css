@@ -1,0 +1,63 @@
+div{
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width:100%;
+	background-color: black;
+	font-family: monospace;
+	font-size: 16px;
+	color: white;
+	margin: 0px;
+}
+
+#gameFlow {
+	float:left;
+	width: calc(80% - 5px);
+}
+#inventoryContainer {
+	float:right;
+	width: calc(20% - 5px);
+	height: calc(100% - 20px);
+	border: 1px solid white;
+	margin: 10px;
+	margin-left: 0px;
+}
+
+#inventory {
+	padding: 5px;
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+}
+
+#rowTextMessage {
+	float: top;
+	margin: 10px;
+	height: calc(70% - 15px);
+	border: 1px solid white;
+	padding: 5px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+#rowUserAction {
+	float: bottom;
+	margin: 10px;
+	height: calc(30% - 15px);
+	border: 1px solid white;
+	padding: 5px;
+}
+
+button{
+	font-family: monospace;
+	margin:5px;
+	white-space: normal; 
+	vertical-align: top;
+
+}
+
