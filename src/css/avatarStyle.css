@@ -1,0 +1,47 @@
+
+
+html,
+body {
+	background: black;
+	font-family: monospace;
+	font-size: 16px;
+	color: white;
+	margin: 0px;
+}
+
+#baseDiv {
+	float:left;
+}
+
+#resultDiv {
+	float:right;
+	width: 70%;
+}
+
+
+
+
+
+.avatar {
+	display:block;
+	width: calc(16px * 8);
+	height: calc(16px * 8);
+	padding: 10;
+}
+
+
+.square {
+	display:block;
+	width: 16;
+	height: 16;
+	float:left;
+}
+
+
+
+
+header {
+	text-align: center;
+	margin: 20px;
+}
+
